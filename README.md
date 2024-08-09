@@ -1,6 +1,6 @@
-# Unity_ColorCollectionShader
+# Unity_ColorCorrectionShader
 
-Shader functions to color collection.
+Shader functions to color correction.
 
 ## Functions
 
@@ -20,7 +20,7 @@ float4 GrayScaleREC709(float4 color)
 float4 BrightnessSaturationContrast
 (float4 color, float brightness, float saturation, float contrast)
 
-float4 ColorCollection
+float4 ColorCorrection
 (float4 color, float4 bscPrams, float4 hsvShift)
 ```
 
@@ -29,5 +29,5 @@ float4 ColorCollection
 You can use Package Manager or import it directly.
 
 ```
-https://github.com/XJINE/Unity_ColorCollectionShader.git?path=Assets/Packages/ColorCollectionShader
+https://github.com/XJINE/Unity_ColorCorrectionShader.git?path=Assets/Packages/ColorCorrectionShader
 ```

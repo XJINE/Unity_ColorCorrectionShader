@@ -1,9 +1,9 @@
 {
-    "name"       : "com.xjine.color_collection_shader",
-    "displayName": "Color Collection Shader", 
+    "name"       : "com.xjine.color_correction_shader",
+    "displayName": "Color Correction Shader", 
     "version"    : "1.0.0",
     "unity"      : "2022.2",
-    "description": "Shader functions to color collection.",
+    "description": "Shader functions to color correction.",
     "author"     :
     {
         "name": "XJINE",

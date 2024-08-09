@@ -1,5 +1,5 @@
-﻿#ifndef COLOR_COLLECTION_INCLUDED
-#define COLOR_COLLECTION_INCLUDED
+﻿#ifndef COLOR_CORRECTION_INCLUDED
+#define COLOR_CORRECTION_INCLUDED
 
 float4 RgbToHsv(float4 rgb)
 {
@@ -156,11 +156,11 @@ float4 BrightnessSaturationContrast(float4 color, float brightness, float satura
     return color;
 }
 
-float4 ColorCollection(float4 color, float4 bscPrams, float4 hsvShift)
+float4 ColorCorrection(float4 color, float4 bscPrams, float4 hsvShift)
 {
     color = BrightnessSaturationContrast(color, bscPrams.x, bscPrams.y, bscPrams.z);
     color = HsvShift(color, hsvShift);
     return color;
 }
 
-#endif // COLOR_COLLECTION_INCLUDED
+#endif // COLOR_CORRECTION_INCLUDED
